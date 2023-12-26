@@ -1,12 +1,12 @@
 import React, { useEffect, useRef } from 'react';
 
 // Опишіть Props
-type Props = {
+interface Props {
   children: React.ReactElement;
   onContentEndVisible: () => void;
 }
 
-type Options = {
+interface Options {
   rootMargin: string;
   threshold: number;
   root: null;
